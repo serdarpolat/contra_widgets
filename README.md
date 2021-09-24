@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center;"><img src="res/Serdar.png" width="32" heigfht="32" /> <span style="font-weight: 700; font-size: 24; color: #22223B; margin-left: 10px;">Serdar Polat</span></div>
-
-<div style="display: flex; align-items: center;"><img src="res/logo-mark.png" width="32" heigfht="32" /> <h2 style="margin-left: 10px">Contra Widgets</h2></div>
+<br>
+<div style="display: flex; align-items: center;"><img src="res/logo-mark.png" width="32" heigfht="32" /> <span style="margin-left: 10px; font-size: 1.5em; font-weight: bold;">Contra Widgets</span></div>
 
 <h1>📱  Screens</h1>
 
