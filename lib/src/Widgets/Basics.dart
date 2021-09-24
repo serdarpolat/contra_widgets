@@ -61,6 +61,14 @@ TextStyle displayExtraBold21(BuildContext context, Color color) => TextStyle(
       height: 1.333,
     );
 
+TextStyle displayExtraBold24(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 24),
+      color: color,
+      fontWeight: FontWeight.w900,
+      height: 1.333,
+    );
+
 TextStyle displayMedium13(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 13),

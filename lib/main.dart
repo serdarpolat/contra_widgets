@@ -1,6 +1,7 @@
 import 'package:contra_widgets/Views/Auth/SignIn1.dart';
 import 'package:contra_widgets/Views/Auth/SignIn2.dart';
 import 'package:contra_widgets/Views/Auth/SignIn3.dart';
+import 'package:contra_widgets/Views/Auth/SignIn4.dart';
 import 'package:contra_widgets/Views/Onboarding/Onboarding1.dart';
 import 'package:contra_widgets/Views/Onboarding/Onboarding2.dart';
 import 'package:contra_widgets/Views/Onboarding/Onboarding3.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Montserrat",
         primarySwatch: Colors.blue,
       ),
-      home: SignIn3(),
+      home: Splash(),
     );
   }
 }

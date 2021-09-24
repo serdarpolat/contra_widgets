@@ -77,7 +77,7 @@ class SignIn2 extends StatelessWidget {
                     Row(
                       children: [
                         Text(
-                          "Are you new?",
+                          "Are you new? ",
                           style: displayMedium13(context, black),
                         ),
                         TextButton(

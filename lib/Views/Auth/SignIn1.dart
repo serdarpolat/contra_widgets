@@ -85,7 +85,7 @@ class SignIn1 extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Are you new?",
+                          "Are you new? ",
                           style: displayMedium13(context, black),
                         ),
                         TextButton(
