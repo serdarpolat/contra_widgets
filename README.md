@@ -10,17 +10,21 @@
 
 <h2>Onboarding</h2>
 
+<div style="display: flex; flex-wrap: wrap">
 <img src="res/onb1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/onb2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/onb3.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/onb4.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
 
 <h2>Sign In</h2>
 
+<div style="display: flex; flex-wrap: wrap">
 <img src="res/sign1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/sign2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/sign3.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/sign4.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
 
 <h2>Sign Up</h2>
 
@@ -36,5 +40,7 @@
 
 <h2>Chat</h2>
 
+<div style="display: flex; flex-wrap: wrap">
 <img src="res/chats.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/chatdetail.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
