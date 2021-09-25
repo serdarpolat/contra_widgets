@@ -21,7 +21,7 @@ EdgeInsets horizontal24(BuildContext context) =>
 EdgeInsets left24(BuildContext context) =>
     EdgeInsets.only(left: ww(context, 24));
 
-TextStyle h44(BuildContext context, Color color) => TextStyle(
+TextStyle hExtra44(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 44),
       color: color,
@@ -29,9 +29,17 @@ TextStyle h44(BuildContext context, Color color) => TextStyle(
       height: 1.25,
     );
 
-TextStyle h36(BuildContext context, Color color) => TextStyle(
+TextStyle hExtra36(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 36),
+      color: color,
+      fontWeight: FontWeight.w900,
+      height: 1.1111,
+    );
+
+TextStyle hExtra27(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 27),
       color: color,
       fontWeight: FontWeight.w900,
       height: 1.1111,
@@ -69,6 +77,30 @@ TextStyle displayExtraBold24(BuildContext context, Color color) => TextStyle(
       height: 1.333,
     );
 
+TextStyle displayBold11(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 11),
+      color: color,
+      fontWeight: FontWeight.w700,
+      height: 1.45,
+    );
+
+TextStyle displayBold12(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 12),
+      color: color,
+      fontWeight: FontWeight.w700,
+      height: 1.45,
+    );
+
+TextStyle displayExtrabold12(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 12),
+      color: color,
+      fontWeight: FontWeight.w900,
+      height: 1.45,
+    );
+
 TextStyle displayMedium13(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 13),
@@ -85,12 +117,28 @@ TextStyle displayBold13(BuildContext context, Color color) => TextStyle(
       height: 1.45,
     );
 
+TextStyle displayMedium15(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 15),
+      color: color,
+      fontWeight: FontWeight.w500,
+      height: 1.25,
+    );
+
 TextStyle displayMedium17(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 17),
       color: color,
       fontWeight: FontWeight.w500,
       height: 1.333,
+    );
+
+TextStyle displayBold17(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 17),
+      color: color,
+      fontWeight: FontWeight.w700,
+      height: 1.411764,
     );
 
 BoxShadow shadow200(BuildContext context) => BoxShadow(

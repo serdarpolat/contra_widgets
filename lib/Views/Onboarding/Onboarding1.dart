@@ -134,7 +134,7 @@ class Onboard1Message extends StatelessWidget {
           Text(
             "Contra wireframe kit",
             textAlign: TextAlign.center,
-            style: h36(context, black),
+            style: hExtra36(context, black),
           ),
           Spacer(),
           Text(

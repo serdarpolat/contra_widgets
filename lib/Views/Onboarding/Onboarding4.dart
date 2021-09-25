@@ -118,7 +118,7 @@ class Onboard3Message extends StatelessWidget {
             width: ww(context, 292),
             child: Text(
               "Contra wireframe kit",
-              style: h44(context, black),
+              style: hExtra44(context, black),
             ),
           ),
         ],

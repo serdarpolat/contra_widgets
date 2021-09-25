@@ -44,7 +44,7 @@ class SignIn3 extends StatelessWidget {
                         children: [
                           Text(
                             "Login",
-                            style: h36(context, black),
+                            style: hExtra36(context, black),
                           ),
                           Text(
                             "You don’t think you should login first and behave like human not robot.",

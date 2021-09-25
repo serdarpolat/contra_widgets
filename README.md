@@ -21,3 +21,20 @@
 <img src="res/sign2.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/sign3.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/sign4.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
+
+<h2>Sign Up</h2>
+
+<img src="res/signup.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
+
+<h2>Verify</h2>
+
+<img src="res/verify.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
+
+<h2>Contact Us</h2>
+
+<img src="res/contact.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
+
+<h2>Chat</h2>
+
+<img src="res/chats.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/chatdetail.png" width="360" style="margin-right: 12px; margin-bottom: 12px;"/>

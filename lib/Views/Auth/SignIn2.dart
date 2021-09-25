@@ -27,7 +27,7 @@ class SignIn2 extends StatelessWidget {
                   children: [
                     Text(
                       "Login",
-                      style: h36(context, black),
+                      style: hExtra36(context, black),
                     ),
                     SizedBox(height: hh(context, 12)),
                     Text(
@@ -68,7 +68,7 @@ class SignIn2 extends StatelessWidget {
                       borderColor: black,
                       title: Text(
                         "Sign in",
-                        style: displayExtraBold21(context, white),
+                        style: displayExtraBold21(context, black),
                       ),
                       height: 60,
                       onTap: () {},

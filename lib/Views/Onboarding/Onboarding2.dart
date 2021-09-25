@@ -163,7 +163,7 @@ class Onboard2Message extends StatelessWidget {
         children: [
           Text(
             "Contra wireframe kit",
-            style: h36(context, black),
+            style: hExtra36(context, black),
           ),
           Spacer(),
           Text(

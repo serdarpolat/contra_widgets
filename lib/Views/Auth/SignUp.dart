@@ -2,8 +2,8 @@ import 'package:contra_widgets/src/SourcesBox.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class SignIn1 extends StatelessWidget {
-  const SignIn1({Key? key}) : super(key: key);
+class SignUp extends StatelessWidget {
+  const SignUp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -17,21 +17,36 @@ class SignIn1 extends StatelessWidget {
           child: Column(
             children: [
               AuthAppbar(),
-              SizedBox(height: hh(context, 37)),
-              SvgPicture.asset(
-                "logo-mark".getIcon,
-                width: ww(context, 120),
-              ),
-              SizedBox(height: hh(context, 24)),
+              SizedBox(height: hh(context, 28)),
               Container(
                 width: w(context),
-                height: hh(context, 414),
+                height: hh(context, 530),
                 padding: all24(context),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Login",
+                      "Sign Up",
                       style: hExtra36(context, black),
+                    ),
+                    SizedBox(height: hh(context, 12)),
+                    Text(
+                      "You have chance to create new account if you really want to.",
+                      style: displayMedium17(context, grey),
+                    ),
+                    SizedBox(height: hh(context, 24)),
+                    InputField(
+                      obsecure: false,
+                      hintText: "Full Name",
+                      prefix: Padding(
+                        padding: const EdgeInsets.only(
+                            left: 12, top: 8, bottom: 8, right: 8),
+                        child: SvgPicture.asset(
+                          "user".getIcon,
+                          width: 24,
+                          color: black,
+                        ),
+                      ),
                     ),
                     SizedBox(height: hh(context, 24)),
                     InputField(
@@ -41,7 +56,7 @@ class SignIn1 extends StatelessWidget {
                         padding: const EdgeInsets.only(
                             left: 12, top: 8, bottom: 8, right: 8),
                         child: SvgPicture.asset(
-                          "user".getIcon,
+                          "mail".getIcon,
                           width: 24,
                           color: black,
                         ),
@@ -61,37 +76,28 @@ class SignIn1 extends StatelessWidget {
                         ),
                       ),
                     ),
-                    SizedBox(height: hh(context, 48)),
-                    BorderedButton(
-                      bgColor: black,
+                    SizedBox(height: hh(context, 32)),
+                    LongShadowButton(
+                      bgColor: yellow,
                       borderColor: black,
-                      height: hh(context, 60),
-                      onTap: () {},
-                      title: Row(
-                        children: [
-                          Text(
-                            "Sign in",
-                            style: displayExtraBold21(context, white),
-                          ),
-                          SvgPicture.asset(
-                            "chevron-right".getIcon,
-                            color: white,
-                          ),
-                        ],
+                      title: Text(
+                        "Sign up",
+                        style: displayExtraBold21(context, black),
                       ),
+                      height: 60,
+                      onTap: () {},
                     ),
                     Spacer(),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          "Are you new? ",
+                          "Already have account? ",
                           style: displayMedium13(context, black),
                         ),
                         TextButton(
                           onPressed: () {},
                           child: Text(
-                            "Create new",
+                            "Go here",
                             style: displayMedium13(context, red),
                           ),
                         ),
