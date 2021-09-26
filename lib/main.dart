@@ -1,6 +1,5 @@
+import 'package:contra_widgets/Views/Chat/Profile/Profile1.dart';
 import 'package:flutter/material.dart';
-
-import 'Views/Chat/Settings/Settings2.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Montserrat",
         primarySwatch: Colors.blue,
       ),
-      home: Settings2(),
+      home: Profile1(),
     );
   }
 }

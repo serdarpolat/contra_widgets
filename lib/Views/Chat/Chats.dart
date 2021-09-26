@@ -1,3 +1,4 @@
+import 'package:contra_widgets/Views/Chat/ChatNavbar.dart';
 import 'package:contra_widgets/src/Models/ChatItemModel.dart';
 import 'package:contra_widgets/src/Models/ChatNavbarItemModel.dart';
 import 'package:contra_widgets/src/SourcesBox.dart';
@@ -8,15 +9,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'ChatItemView.dart';
 import 'ChatNavbarItemView.dart';
 
-class Chats extends StatefulWidget {
-  const Chats({Key? key}) : super(key: key);
-
-  @override
-  _ChatsState createState() => _ChatsState();
-}
-
-class _ChatsState extends State<Chats> {
-  int navItem = 2;
+class Chats extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,34 +50,7 @@ class _ChatsState extends State<Chats> {
                 style: hExtra44(context, black),
               ),
             ),
-            Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(
-                height: hh(context, 90),
-                child: Row(
-                  children: List.generate(chatNavbarItems.length, (index) {
-                    var item = chatNavbarItems[index];
-                    return ChatNavbarItem(
-                      item: item,
-                      active: item.id == navItem,
-                      onTap: () {
-                        setState(() {
-                          navItem = item.id;
-                        });
-                      },
-                    );
-                  }),
-                ),
-                decoration: BoxDecoration(
-                  color: white,
-                  border: Border(
-                    top: BorderSide(color: black, width: hh(context, 2)),
-                  ),
-                ),
-              ),
-            ),
+            ChatNavbar(),
           ],
         ),
       ),

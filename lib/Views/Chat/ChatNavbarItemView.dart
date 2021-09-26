@@ -31,7 +31,7 @@ class ChatNavbarItem extends StatelessWidget {
                 width: hh(context, 24),
                 height: hh(context, 24),
                 decoration: BoxDecoration(
-                  color: active ? green : grey100,
+                  color: active ? item.color : grey100,
                   shape: BoxShape.circle,
                   border: Border.all(
                       color: active ? black : grey, width: hh(context, 2)),

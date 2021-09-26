@@ -51,8 +51,26 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <img src="res/chats.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/chatdetail.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
+
+<h2 style="text-align: center;">Menu</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <img src="res/menu1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/menu2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
+
+<h2 style="text-align: center;">Settings</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <img src="res/settings1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/settings2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/settings3.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+</div>
+
+<h2 style="text-align: center;">Profile</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+<img src="res/profile1-1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/profile1-2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 </div>
