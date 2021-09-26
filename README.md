@@ -51,4 +51,8 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <img src="res/chats.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/chatdetail.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/menu1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/menu2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/settings1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/settings2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 </div>

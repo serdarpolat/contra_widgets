@@ -42,7 +42,7 @@ TextStyle hExtra27(BuildContext context, Color color) => TextStyle(
       fontSize: hh(context, 27),
       color: color,
       fontWeight: FontWeight.w900,
-      height: 1.1111,
+      height: 1.111,
     );
 
 TextStyle display21(BuildContext context, Color color) => TextStyle(
@@ -117,6 +117,14 @@ TextStyle displayBold13(BuildContext context, Color color) => TextStyle(
       height: 1.45,
     );
 
+TextStyle displayBold15(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 15),
+      color: color,
+      fontWeight: FontWeight.w700,
+      height: 1.25,
+    );
+
 TextStyle displayMedium15(BuildContext context, Color color) => TextStyle(
       inherit: true,
       fontSize: hh(context, 15),
@@ -141,6 +149,14 @@ TextStyle displayBold17(BuildContext context, Color color) => TextStyle(
       height: 1.411764,
     );
 
+TextStyle displayExtraBold17(BuildContext context, Color color) => TextStyle(
+      inherit: true,
+      fontSize: hh(context, 17),
+      color: color,
+      fontWeight: FontWeight.w900,
+      height: 1.411764,
+    );
+
 BoxShadow shadow200(BuildContext context) => BoxShadow(
       color: black,
       offset: Offset(0, hh(context, 2)),
@@ -151,4 +167,34 @@ BoxShadow shadow400(BuildContext context) => BoxShadow(
       color: black,
       offset: Offset(0, hh(context, 4)),
       blurRadius: 0,
+    );
+
+BoxBorder baseBorder(BuildContext context) => Border.all(
+      color: black,
+      width: hh(context, 2),
+    );
+
+Decoration baseDecoration(BuildContext context,
+        {Color? bgColor, BoxShadow? boxShadow}) =>
+    BoxDecoration(
+      color: bgColor ?? white,
+      borderRadius: BorderRadius.circular(hh(context, 16)),
+      border: baseBorder(context),
+      boxShadow: [
+        boxShadow ??
+            BoxShadow(
+              color: Colors.transparent,
+            ),
+      ],
+    );
+
+Widget basicCircle(BuildContext context, {double? size, Color? bgColor}) =>
+    Container(
+      width: size ?? h24(context),
+      height: size ?? h24(context),
+      decoration: BoxDecoration(
+        color: bgColor ?? yellow,
+        shape: BoxShape.circle,
+        border: baseBorder(context),
+      ),
     );

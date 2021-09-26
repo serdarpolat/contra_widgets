@@ -1,4 +1,3 @@
-import 'package:contra_widgets/main.dart';
 import 'package:contra_widgets/src/SourcesBox.dart';
 import 'package:flutter/material.dart';
 
