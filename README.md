@@ -73,4 +73,6 @@
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
 <img src="res/profile1-1.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 <img src="res/profile1-2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/profile2.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
+<img src="res/profile3.png" width="320" style="margin-right: 12px; margin-bottom: 12px;"/>
 </div>

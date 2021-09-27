@@ -1,6 +1,9 @@
 import 'package:contra_widgets/Views/Chat/Profile/Profile1.dart';
 import 'package:flutter/material.dart';
 
+import 'Views/Chat/Profile/Profile2.dart';
+import 'Views/Chat/Profile/Profile3.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -15,7 +18,7 @@ class MyApp extends StatelessWidget {
         fontFamily: "Montserrat",
         primarySwatch: Colors.blue,
       ),
-      home: Profile1(),
+      home: Profile3(),
     );
   }
 }
